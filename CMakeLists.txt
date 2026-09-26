@@ -68,9 +68,6 @@ set_property(TARGET app PROPERTY
 target_link_libraries(app
     PRIVATE
         fltk-shared
-        dcorelib
-        kvp
-        sx_lib
 )
 
 if(MSVC)

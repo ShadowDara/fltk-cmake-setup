@@ -6,14 +6,14 @@
 
 void button_callback(Fl_Widget* widget, void* data)
 {
-    printf("Hallo von FLTK!\n");
+    printf("Hello from FLTK!\n");
 }
 
 int main()
 {
-    Fl_Window window(400, 300, "Mein FLTK Fenster");
+    Fl_Window window(400, 300, "My FLTK Window");
 
-    Fl_Button button(150, 120, 100, 40, "Klick mich");
+    Fl_Button button(150, 120, 100, 40, "Click me");
     button.callback(button_callback);
 
     window.end();
