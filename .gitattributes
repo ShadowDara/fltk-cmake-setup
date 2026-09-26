@@ -1,0 +1,7 @@
+# Ignore thirdparty and fltk directories for language statistics
+
+thirdparty/** linguist-ignore
+thirdparty/** linguist-vendored
+
+fltk/** linguist-ignore
+fltk/** linguist-vendored
